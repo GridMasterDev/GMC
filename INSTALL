@@ -1,0 +1,9 @@
+Building Gridmaster
+
+See doc/readme-qt.rst for instructions on building Gridmaster QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Gridmaster.
+
+See doc/build-*.txt for instructions on building Gridmasterd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Gridmaster.
