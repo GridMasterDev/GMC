@@ -5,6 +5,8 @@ Gridmaster is a PoS-based cryptocurrency.
 
 Gridmaster is dependent upon libsecp256k1.
 
+The recommended build is included in the src directory. This is not the latest but is the one that has more success building the client.
+
 Dynamic rewards
 Block Spacing: 60 Seconds
 Stake Minimum Age: 4 Hours
