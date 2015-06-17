@@ -1,0 +1,6 @@
+obj/crypto/hmac_sha512.o: crypto/hmac_sha512.cpp \
+ /root/Gridmaster-master-rev2/src/crypto/hmac_sha512.h \
+ /root/Gridmaster-master-rev2/src/crypto/sha512.h
+crypto/hmac_sha512.cpp :
+ /root/Gridmaster-master-rev2/src/crypto/hmac_sha512.h :
+ /root/Gridmaster-master-rev2/src/crypto/sha512.h :
