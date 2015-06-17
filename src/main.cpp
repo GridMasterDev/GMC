@@ -1133,7 +1133,7 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 
     if(nHeight == 1)
         nSubsidy = 100000000 * COIN; //ICO Premine
-    
+
     return nSubsidy + nFees;
 }
 // declare halving period for pos
@@ -1176,7 +1176,7 @@ if(nHeight < 8640)
   }
 else
 {
-  nSubsidy = 4000 * COIN;
+  nSubsidy = 50 * COIN;
 
   // Subsidy is cut in half every g_RewardHalvingPeriod blocks which will occur approximately every 2 years.
   int halvings = nHeight / g_RewardHalvingPeriod;
